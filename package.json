@@ -19,7 +19,6 @@
     "test": "tests"
   },
   "scripts": {
-    "commit": "commit",
     "format": "prettier --write lib/**/*.ts tests/**/*.ts",
     "prebuild": "rimraf -rf dist",
     "build": "tsc -p tsconfig.build.json",
@@ -33,7 +32,7 @@
     "test:integration": "jest --config ./tests/jest-e2e.config.json --runInBand",
     "test:cov": "jest --config ./tests/jest-e2e.config.json --runInBand --coverage",
     "prerelease": "npm run build",
-    "release": "dotenv release-it --"
+    "release": "release-it"
   },
   "devDependencies": {
     "@nestjs/common": "10.3.9",
