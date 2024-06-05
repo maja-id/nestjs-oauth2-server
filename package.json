@@ -1,6 +1,6 @@
 {
   "name": "@maja.id/nestjs-oauth2-server",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "A Nestjs wrapper for oauth2-server",
   "main": "index.js",
   "author": "Prastowo Agung Widodo <agung@makaramas.com>",
